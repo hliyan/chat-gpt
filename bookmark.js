@@ -27,13 +27,13 @@ javascript:(function() {
 body {
   background-color: rgb(32,33,35);
   color: rgb(236,236,241);
-  font-size: 16px;
+  font-size: 14px;
   font-family: sans-serif;
-  line-height: 28px;
+  line-height: 24px;
   margin: 0;
 }
 body > .w-full {
-  padding: 30px;
+  padding: 20px;
 }
 /* prompt */
 body > .w-full:nth-child(2n+1) {
@@ -59,7 +59,7 @@ pre code.hljs {
   white-space: pre-wrap;
 }
 .flex-col {
-  max-width: 850px;
+  max-width: 640px;
   margin: 0px auto;
 }
 *, :after, :before {
